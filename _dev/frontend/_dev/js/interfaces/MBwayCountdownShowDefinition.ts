@@ -1,0 +1,1 @@
+export type MbwayCountdownShowType = 'true'|'false';

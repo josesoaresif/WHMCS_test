@@ -1,0 +1,92 @@
+.mbwayCountdownPanel {
+    width: 350px;
+    margin: auto;
+    padding: 0;
+    margin-bottom: 20px;
+    .panel-body {
+        text-align: center;
+        padding: 15px;
+        width: 80%;
+        margin: auto;
+        min-height: 200px;
+        width: 100%;
+        margin: auto;
+        margin-top: 21px;
+        margin-bottom: 15px;
+        background: white;
+        border-radius: 5px;
+        box-shadow: 0 8px 6px -6px black;
+        h3 {
+            margin-top: 20px;
+        }
+        #countdownMbway {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            h3 {
+                font-family: 'Montserrat', sans-serif;
+                font-size: 100px;
+                text-align: center;
+                font-weight: bolder;
+                color:red;
+            }
+        }
+    }
+}
+#cancelMbwayOrder, #confirmMbwayOrder, #orderErrorPanel {
+    margin-bottom: 20px;
+    .panel-heading {
+        text-align: center;
+        img {
+            width: 25%;
+            margin: auto;
+        }
+    }
+    
+    .panel-body {
+        text-align: center;
+        margin-top: 10px;
+    }
+}
+.panel-ifthenpayConfirmPage {
+    .panel-heading {
+        h5 {
+            margin-top: 0px;
+        }
+    }
+    width: 490px;
+    max-width: 100%;
+    margin: 20px auto;
+    padding: 20px;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    .paymentLogo {
+        float: left;
+        img {
+            max-width: 80%;
+        }
+    }
+    .paymentData {
+        float: right;
+        margin-top: 10px;
+        width: 275px;
+        .list-group-item {
+            text-align: left;
+        }
+    }
+    h5 {
+        margin-top: 20px;
+    }
+}
