@@ -82,19 +82,19 @@ Use the table below to check the compatibility of the Ifthenpay extension with y
 
 # Installation
 Please download the installation file of the ifthenpay module for WHMCS 8 from the GitHub page [ifthenpay-whmcs](https://github.com/josesoaresif/WHMCS_test/releases/tag/v1.3.0).
-![img](https://github.com/josesoaresif/WHMCS_test/raw/assets/version4/assets/download_installer.png)
+![img](https://github.com/josesoaresif/WHMCS_test/raw/assets/version8/assets/download_installer.png)
 </br>
 
 Unzip the downloaded file, and paste the contents to the root of your online store.
-![img](https://github.com/josesoaresif/WHMCS_test/raw/assets/version4/assets/upload_ocmodzip.png)
+![img](https://github.com/josesoaresif/WHMCS_test/raw/assets/version8/assets/upload_ocmodzip.png)
 </br>
 
 After uploading the files, access the admin back office of your online store and go to Setup (1) -> Apps & Integrations (2) -> Browse (3) -> Payments (4).
-![img](https://github.com/josesoaresif/WHMCS_test/raw/assets/version4/assets/backoffice_payments.png)
+![img](https://github.com/josesoaresif/WHMCS_test/raw/assets/version8/assets/backoffice_payments.png)
 </br>
 
 Search for the ifthenpay module payment method that you wish to enable (e.g., Multibanco) and click on Activate (1).
-![img](https://github.com/josesoaresif/WHMCS_test/raw/assets/version4/assets/activate_method.png)
+![img](https://github.com/josesoaresif/WHMCS_test/raw/assets/version8/assets/activate_method.png)
 </br>
 
 
@@ -102,7 +102,7 @@ Search for the ifthenpay module payment method that you wish to enable (e.g., Mu
 
 After installing the module and activating a payment method you will be redirected to its configuration page where you need to configure it using your ifthenpay account details.
 Click on "Manage" (1) for the payment method you want to configure (e.g., Multibanco).
-![img](https://github.com/josesoaresif/WHMCS_test/raw/assets/version4/assets/click_configure.png)
+![img](https://github.com/josesoaresif/WHMCS_test/raw/assets/version8/assets/click_configure.png)
 
 </br>
 
@@ -112,7 +112,7 @@ Click on "Manage" (1) for the payment method you want to configure (e.g., Multib
 Each payment method configuration requires entering the Backoffice Key to load the available accounts. The Backoffice Key is provided upon contract completion and consists of sets of four digits separated by an hyphen (-).
 Below is an example for Multibanco, and this action is the same for other payment methods as well.
 Enter the Backoffice Key (1) and click on Save (2). The page will reload, displaying the configuration form again, but with the available accounts loaded and additional configuration options.
-![img](https://github.com/josesoaresif/WHMCS_test/raw/assets/version4/assets/config_save_backofficekey.png)
+![img](https://github.com/josesoaresif/WHMCS_test/raw/assets/version8/assets/config_save_backofficekey.png)
 
 </br>
 
@@ -133,7 +133,7 @@ Configure the payment method. The image below shows an example of a minimally fu
 8. **Sub-entity** - Select a Sub-Entity. You can only choose one of the Sub-Entities associated with the Entity chosen earlier.
 
 Click on Save (9) to save the changes.
-![img](https://github.com/josesoaresif/WHMCS_test/raw/assets/version4/assets/config_multibanco.png)
+![img](https://github.com/josesoaresif/WHMCS_test/raw/assets/version8/assets/config_multibanco.png)
 
 </br>
 
@@ -157,7 +157,7 @@ Examples of deadlines:
 - Choosing a deadline of 3 days: If an order is created on 22/03/2023 at 20:30, the generated Multibanco reference will expire on 25/03/2023 at 23:59, which means the Multibanco reference will be valid for the day it was generated plus 3 days.
 
 Click on Save (4) to save the changes.
-![img](https://github.com/josesoaresif/WHMCS_test/raw/assets/version4/assets/config_multibanco_dynamic.png)
+![img](https://github.com/josesoaresif/WHMCS_test/raw/assets/version8/assets/config_multibanco_dynamic.png)
 
 </br>
 
@@ -178,7 +178,7 @@ Configure the payment method. The image below shows an example of a minimally fu
 7. **Mbway Key** - Select a Key. You can only choose one of the Keys associated with the Backoffice Key.
 
 Click on Save (8) to save the changes.
-![img](https://github.com/josesoaresif/WHMCS_test/raw/assets/version4/assets/config_mbway.png)
+![img](https://github.com/josesoaresif/WHMCS_test/raw/assets/version8/assets/config_mbway.png)
 
 </br>
 
@@ -196,7 +196,7 @@ Configure the payment method. The image below shows an example of a minimally fu
 5. **Ccard Key** - Select a Key. You can only choose one of the Keys associated with the Backoffice Key.
 
 Click on Save (6) to save the changes.
-![img](https://github.com/josesoaresif/WHMCS_test/raw/assets/version4/assets/config_ccard.png)
+![img](https://github.com/josesoaresif/WHMCS_test/raw/assets/version8/assets/config_ccard.png)
 
 </br>
 
@@ -218,7 +218,7 @@ Configure the payment method. The image below shows an example of a minimally fu
 
 
 Click on Save (9) to save the changes.
-![img](https://github.com/josesoaresif/WHMCS_test/raw/assets/version4/assets/config_payshop.png)
+![img](https://github.com/josesoaresif/WHMCS_test/raw/assets/version8/assets/config_payshop.png)
 
 </br>
 
@@ -229,7 +229,7 @@ Click on Save (9) to save the changes.
 
 On the Apps & Integrations->Payments page, by clicking any of the ifthenpay payment methods card you can find a Support link (1) that redirects you to the ifthenpay support page, where you can create a support ticket.
 For your convenience, you can also access this user manual by clicking on the Instructions link (2), which will redirect you to the GitHub page where you can find the user manual.
-![img](https://github.com/josesoaresif/WHMCS_test/raw/assets/version4/assets/support.png)
+![img](https://github.com/josesoaresif/WHMCS_test/raw/assets/version8/assets/support.png)
 </br>
 
  ## Request additional account
@@ -238,11 +238,11 @@ For your convenience, you can also access this user manual by clicking on the In
 If you already have an ifthenpay account but haven't contracted a needed payment method, you can place an automatic request with ifthenpay.
 The response time for this request is 1 to 2 business days, with the exception of the Credit Card payment method, which might exceed this time due to validation requirements.
 To request the creation of an additional account, access the configuration page of the payment method you wish to contract and click on Send Email (1).
-![img](https://github.com/josesoaresif/WHMCS_test/raw/assets/version4/assets/request_account.png)
+![img](https://github.com/josesoaresif/WHMCS_test/raw/assets/version8/assets/request_account.png)
 </br>
 
 In the case that you already have a Multibanco account with static references and need an account for Multibanco with dynamic references, you can do so on the Multibanco configuration page by clicking on Send Email (1) below Request Multibanco deadline.
-![img](https://github.com/josesoaresif/WHMCS_test/raw/assets/version4/assets/request_account_multibanco_dynamic.png)
+![img](https://github.com/josesoaresif/WHMCS_test/raw/assets/version8/assets/request_account_multibanco_dynamic.png)
 </br>
 
 As a result, the ifthenpay team will add the payment method to your account, updating the list of available payment methods in your extension.
@@ -265,11 +265,11 @@ In the configuration of the selected payment method, click on the Deactivate but
 
 **Attention, this action will clear the current payment method configuration**;
 
-![img](https://github.com/josesoaresif/WHMCS_test/raw/assets/version4/assets/deactivate.png)
+![img](https://github.com/josesoaresif/WHMCS_test/raw/assets/version8/assets/deactivate.png)
 </br>
 
 After deactivating the payment method, you can now reactivate it again at the Apps & Integrations->Payments page.
-![img](https://github.com/josesoaresif/WHMCS_test/raw/assets/version4/assets/activate_method.png)
+![img](https://github.com/josesoaresif/WHMCS_test/raw/assets/version8/assets/activate_method.png)
 
 </br>
 
@@ -287,7 +287,7 @@ As mentioned in the configurations above, to activate the Callback, access the e
 
 After activating the Callback, you don't need to take any further action. The Callback is active and functioning.
 
-![img](https://github.com/josesoaresif/WHMCS_test/raw/assets/version4/assets/callback.png)
+![img](https://github.com/josesoaresif/WHMCS_test/raw/assets/version8/assets/callback.png)
 
 </br>
 
@@ -316,24 +316,24 @@ The following describes the consumer user experience when using ifthenpay paymen
 
 On the checkout page, the consumer can choose the payment method.
 If the show payment icon is disabled, the payment method name will be displayed.
-![img](https://github.com/josesoaresif/WHMCS_test/raw/assets/version4/assets/checkout_no_icons.png)
+![img](https://github.com/josesoaresif/WHMCS_test/raw/assets/version8/assets/checkout_no_icons.png)
 </br>
 
 If the show payment icon is enabled, the icon will be displayed.
-![img](https://github.com/josesoaresif/WHMCS_test/raw/assets/version4/assets/checkout_icons.png)
+![img](https://github.com/josesoaresif/WHMCS_test/raw/assets/version8/assets/checkout_icons.png)
 </br>
 
 
 ## Paying order with Multibanco
 
 Select the Multibanco payment method (1) and click on Complete Order (2).
-![img](https://github.com/josesoaresif/WHMCS_test/raw/assets/version4/assets/select_multibanco.png)
+![img](https://github.com/josesoaresif/WHMCS_test/raw/assets/version8/assets/select_multibanco.png)
 </br>
 
 
 The invoice page will be displayed, showing the entity, reference, deadline, and the amount to pay.
 Note: In the case of assigning a static Multibanco account or Multibanco with Dynamic References without setting an expiry date, the payment deadline will not be displayed.
-![img](https://github.com/josesoaresif/WHMCS_test/raw/assets/version4/assets/invoice_multibanco.png)
+![img](https://github.com/josesoaresif/WHMCS_test/raw/assets/version8/assets/invoice_multibanco.png)
 
 </br>
 
@@ -341,11 +341,11 @@ Note: In the case of assigning a static Multibanco account or Multibanco with Dy
 ## Paying order with Payshop
 
 Select the Payshop payment method (1) and click on Complete Order (2).
-![img](https://github.com/josesoaresif/WHMCS_test/raw/assets/version4/assets/select_payshop.png)
+![img](https://github.com/josesoaresif/WHMCS_test/raw/assets/version8/assets/select_payshop.png)
 </br>
 
 The invoice page will be displayed, showing the reference, deadline, and the amount to pay.
-![img](https://github.com/josesoaresif/WHMCS_test/raw/assets/version4/assets/invoice_payshop.png)
+![img](https://github.com/josesoaresif/WHMCS_test/raw/assets/version8/assets/invoice_payshop.png)
 
 </br>
 
@@ -354,35 +354,35 @@ The invoice page will be displayed, showing the reference, deadline, and the amo
 ## Paying order with MB WAY
 
 Select the MB WAY payment method (1) and click on Complete Order (2).
-![img](https://github.com/josesoaresif/WHMCS_test/raw/assets/version4/assets/select_mbway.png)
+![img](https://github.com/josesoaresif/WHMCS_test/raw/assets/version8/assets/select_mbway.png)
 </br>
 
 User will be presented with a form to enter the mobile phone number (1) and click on Pay Now (2).
-![img](https://github.com/josesoaresif/WHMCS_test/raw/assets/version4/assets/invoice_mbway_start.png)
+![img](https://github.com/josesoaresif/WHMCS_test/raw/assets/version8/assets/invoice_mbway_start.png)
 </br>
 
 A countdown timer will be displayed, and the consumer will receive a notification in the MB WAY app to authorize the payment.
 If the countdown reaches zero, the consumer can click on the "Resend Mbway notification" button to receive a new notification in the MB WAY app.
-![img](https://github.com/josesoaresif/WHMCS_test/raw/assets/version4/assets/invoice_mbway_end.png)
+![img](https://github.com/josesoaresif/WHMCS_test/raw/assets/version8/assets/invoice_mbway_end.png)
 </br>
 
 
 
 When the consumer authorizes the payment in the MB WAY app and payment is recieved, the countdown is replaced with "Order paid!" panel.
-![img](https://github.com/josesoaresif/WHMCS_test/raw/assets/version4/assets/invoice_mbway_paid.png)
+![img](https://github.com/josesoaresif/WHMCS_test/raw/assets/version8/assets/invoice_mbway_paid.png)
 </br>
 
 
 ## Paying order with Credit Card
 
 Select the Credit Card payment method (1) and click on Complete Order (2).
-![img](https://github.com/josesoaresif/WHMCS_test/raw/assets/version4/assets/select_ccard.png)
+![img](https://github.com/josesoaresif/WHMCS_test/raw/assets/version8/assets/select_ccard.png)
 </br>
 
 User will be redirected to the ifthenpay Credit Card gateway page.
 Fill in the credit card details, card number (1), expiration date (2), security code (3), Name on Card (4), and click on Pay (5).
 You can go back (6), returning to the checkout page.
-![img](https://github.com/josesoaresif/WHMCS_test/raw/assets/version4/assets/invoice_ccard.png)
+![img](https://github.com/josesoaresif/WHMCS_test/raw/assets/version8/assets/invoice_ccard.png)
 </br>
 
 
