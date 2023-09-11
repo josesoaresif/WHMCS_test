@@ -12,7 +12,7 @@ Download versions of the ifthenpay extension for WHMCS.
 
 # Ifthenpay payment extension for WHMCS 8
 
-Read in ![Portuguese](https://github.com/josesoaresif/WHMCS_test/raw/assets/version8/assets/pt.png) [Portuguese](README.pt.md), e ![English](https://github.com/josesoaresif/WHMCS_test/raw/assets/version8/assets/en.png) [English](README.md)
+Read in ![Portuguese](https://github.com/josesoaresif/WHMCS_test/raw/assets/version8/assets/pt.png) [Portuguese](README.pt.md), and ![English](https://github.com/josesoaresif/WHMCS_test/raw/assets/version8/assets/en.png) [English](README.md)
 
 [1. Introduction](#introduction)
 
@@ -47,7 +47,9 @@ Read in ![Portuguese](https://github.com/josesoaresif/WHMCS_test/raw/assets/vers
 
 # Introduction
 ![ifthenpay](https://ifthenpay.com/images/all_payments_logo_final.png)
+
 </br>
+
 **This is the ifthenpay extension for the WHMCS ecommerce platform.**
 
 **Multibanco** is a Portuguese payment method that allows the consumer to pay through a bank reference. This extension enables the generation of payment references that the consumer can use to pay for their order at an ATM (Multibanco) or through an online home banking service. This extension utilizes ifthenpay, one of the various available gateways in Portugal.
@@ -81,7 +83,7 @@ Use the table below to check the compatibility of the Ifthenpay extension with y
 
 
 # Installation
-Please download the installation file of the ifthenpay module for WHMCS 8 from the GitHub page [ifthenpay-whmcs](https://github.com/josesoaresif/WHMCS_test/releases/tag/v1.3.0).
+Download the installation file of the ifthenpay module for WHMCS 8 from the GitHub page [ifthenpay-whmcs](https://github.com/josesoaresif/WHMCS_test/releases/tag/v1.3.0).
 ![img](https://github.com/josesoaresif/WHMCS_test/raw/assets/version8/assets/download_installer.png)
 </br>
 
@@ -101,8 +103,7 @@ Search for the ifthenpay module payment method that you wish to enable (e.g., Mu
 # Configuration
 
 After installing the module and activating a payment method you will be redirected to its configuration page where you need to configure it using your ifthenpay account details.
-Click on "Manage" (1) for the payment method you want to configure (e.g., Multibanco).
-![img](https://github.com/josesoaresif/WHMCS_test/raw/assets/version8/assets/click_configure.png)
+The configuration page can also be accessed by selecting Payments -> Payment Gateways from the left navigation sidebar and selecting the active payment method you wish to configure, or by clicking Apss & Integrations -> selecting the Active tab and choosing the payment method you wish to configure. 
 
 </br>
 
@@ -213,7 +214,7 @@ Configure the payment method. The image below shows an example of a minimally fu
 4. **Activate Callback** - When enabled, the order status will be updated when the payment is received.
 5. **Show Payment Icon on Checkout** - (optional) When enabled, replaces the payment method Display Name presented in checkout with its respective icon.
 6. **Cancel Payshop Order** - (optional) When enabled, allows the order cancellation cron job to run for this specific method.
-7. **Mbway Key** - Select a Key. You can only choose one of the Keys associated with the Backoffice Key.
+7. **Payshop Key** - Select a Key. You can only choose one of the Keys associated with the Backoffice Key.
 8. **Deadline** - Select the number of days to deadline for the Payshop reference. From 1 to 99 days, leave empty if you don't want it to expire.
 
 
@@ -232,8 +233,8 @@ For your convenience, you can also access this user manual by clicking on the In
 ![img](https://github.com/josesoaresif/WHMCS_test/raw/assets/version8/assets/support.png)
 </br>
 
- ## Request additional account
 
+ ## Request additional account
 
 If you already have an ifthenpay account but haven't contracted a needed payment method, you can place an automatic request with ifthenpay.
 The response time for this request is 1 to 2 business days, with the exception of the Credit Card payment method, which might exceed this time due to validation requirements.
@@ -247,7 +248,7 @@ In the case that you already have a Multibanco account with static references an
 
 As a result, the ifthenpay team will add the payment method to your account, updating the list of available payment methods in your extension.
 
-IMPORTANT: When requesting an account for the Credit Card payment method, the ifthenpay team will contact you to request more information about your online store and your business before activating the payment method.
+**IMPORTANT:** When requesting an account for the Credit Card payment method, the ifthenpay team will contact you to request more information about your online store and your business before activating the payment method.
 
 </br>
 
@@ -263,7 +264,7 @@ This is useful in the following scenarios:
 
 In the configuration of the selected payment method, click on the Deactivate button (1), select an alternative payment method (2) and click the modal Deactivate (3) button to confirm.
 
-**Attention, this action will clear the current payment method configuration**;
+**Attention, this action will clear the current payment method configuration.**
 
 ![img](https://github.com/josesoaresif/WHMCS_test/raw/assets/version8/assets/deactivate.png)
 </br>
@@ -272,14 +273,13 @@ After deactivating the payment method, you can now reactivate it again at the Ap
 ![img](https://github.com/josesoaresif/WHMCS_test/raw/assets/version8/assets/activate_method.png)
 
 </br>
-
 After activating, you will be prompted to enter the Backoffice Key again.
-
+</br>
 
 
 ## Callback
 
-IMPORTANT: Only the Multibanco, MB WAY, and Payshop payment methods allow activating the Callback. The Credit Card method changes the order status automatically without using the Callback.
+**IMPORTANT:** Only the Multibanco, MB WAY, and Payshop payment methods allow activating the Callback. The Credit Card method changes the order status automatically without using the Callback.
 
 The Callback is a feature that, when enabled, allows your store to receive notifications of successful payments. Upon receiving a successful payment for an order, the ifthenpay server communicates with your store, changing the order status to "Processing." You can use ifthenpay payments without activating the Callback, but your orders won't automatically update their status.
 
@@ -321,6 +321,7 @@ If the show payment icon is disabled, the payment method name will be displayed.
 
 If the show payment icon is enabled, the icon will be displayed.
 ![img](https://github.com/josesoaresif/WHMCS_test/raw/assets/version8/assets/checkout_icons.png)
+
 </br>
 
 
@@ -370,6 +371,7 @@ If the countdown reaches zero, the consumer can click on the "Resend Mbway notif
 
 When the consumer authorizes the payment in the MB WAY app and payment is recieved, the countdown is replaced with "Order paid!" panel.
 ![img](https://github.com/josesoaresif/WHMCS_test/raw/assets/version8/assets/invoice_mbway_paid.png)
+
 </br>
 
 
